@@ -1,0 +1,64 @@
+.title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.front-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header{
+    background-color: red;
+    padding: 1.5%;
+}
+.kfcimage{
+    display: inline-block;
+    font-size: x-large;
+
+}
+.home{
+    display: inline-block;
+    padding-left: 60%;
+    font-size: x-large;
+    justify-content: center;
+}
+.menu{
+    display: inline-block;
+    font-size: x-large;
+
+}
+.contact{
+    display: inline-block;
+    font-size: x-large;
+
+}
+.menu-title{
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+.containersmenu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.scitems{
+padding: 5px;
+}
+.contactdiv{
+font-size: xx-large;
+padding-top: 20%;
+text-align: center;
+}
+.contactdiv > div{
+    
+    
+}
+
+body{
+background-color: rgb(243, 143, 143);
+}
+
